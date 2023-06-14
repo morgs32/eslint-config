@@ -2,9 +2,13 @@
   "name": "eslint-config",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "files": [
+    ".eslintrc.js",
+    ".eslintrc.example.js"
+  ],
   "scripts": {
-    "lint": "node_modules/.bin/eslint ."
+    "lint": "node_modules/.bin/eslint .",
+    "postinstall": "cp .eslintrc.example.js $INIT_CWD/.eslintrc.js"
   },
   "repository": {
     "type": "git",
