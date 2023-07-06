@@ -19,7 +19,7 @@ module.exports = {
     'unused-imports',
   ],
   rules: {
-    'spaced-comment': ['error', 'always'],
+    'spaced-comment': ['error', 'always', { 'markers': ['/'] }],
     'indent': 'off',
     'unused-imports/no-unused-imports': 'error',
     'comma-spacing': ['error', { 'before': false, 'after': true }],
