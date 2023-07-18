@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "lint": "node_modules/.bin/eslint .",
-    "postinstall": "cp .eslintrc.example.js $INIT_CWD/.eslintrc.js"
+    "postinstall": "cp -n .eslintrc.example.js $INIT_CWD/.eslintrc.js"
   },
   "repository": {
     "type": "git",
