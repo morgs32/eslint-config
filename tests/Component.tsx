@@ -3,8 +3,12 @@ interface IProps {
 }
 
 const projects = [
-  "foo",
-  "bar",
+  {
+    name: "foo"
+  },
+  {
+    name: "bar"
+  }
 ]
 
 export function Component(props: IProps) {
@@ -13,12 +17,14 @@ export function Component(props: IProps) {
     <div
       className="className"
     >
-      {projects.map((project) => (
-        <div
-          key={project}
+      {projects.map(({
+name: project
+  }) => (
+    <div
+      key={project}
       >
-          {project}
-        </div>
+      {project}
+    </div>
       ))       
       }
     </div>
