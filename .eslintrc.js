@@ -1,16 +1,11 @@
 // @ts-check
 module.exports = {
-  extends: [
-    'next/core-web-vitals'
-  ],
-  ignorePatterns: [
-    '**/lib', 
-    '**/dist', 
-  ],
+  extends: ['next/core-web-vitals'],
+  ignorePatterns: ['**/lib', '**/dist'],
   settings: {
     react: {
-      version: 'detect'
-    }
+      version: 'detect',
+    },
   },
   plugins: [
     'import',
@@ -22,45 +17,20 @@ module.exports = {
     'jest',
     'testing-library',
   ],
-  
+
   rules: {
-    'spaced-comment': ['error', 'always', { 'markers': ['/'] }],
+    'spaced-comment': ['error', 'always', { markers: ['/'] }],
     'unused-imports/no-unused-imports': 'error',
-    'comma-spacing': ['error', { 'before': false, 'after': true }],
+    'comma-spacing': ['error', { before: false, after: true }],
     'react/jsx-indent': ['error', 2],
     'space-infix-ops': ['error'],
     quotes: ['error', 'single'],
     'space-before-blocks': 'error',
     'keyword-spacing': 'error',
     'object-curly-spacing': ['error', 'always'],
-    'object-curly-newline': [
-      'error',
-      {
-        ObjectExpression: {
-          multiline: true,
-          minProperties: 3,
-          consistent: true,
-        },
-        ObjectPattern: {
-          multiline: true,
-          minProperties: 3,
-          consistent: true,
-        },
-        ImportDeclaration: {
-          multiline: true,
-          minProperties: 3,
-          consistent: true,
-        },
-        ExportDeclaration: {
-          multiline: true,
-          minProperties: 3,
-          consistent: true,
-        },
-      },
-    ],
     'react/jsx-indent-props': [2, 2],
     'react/jsx-first-prop-new-line': [2, 'multiline'],
-    
+
     // https://github.com/facebook/create-react-app/blob/main/packages/eslint-config-react-app/index.js
     'array-callback-return': 'warn',
     'default-case': ['warn', { commentPattern: '^no default$' }],
@@ -248,7 +218,6 @@ module.exports = {
 
     // https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks
     'react-hooks/rules-of-hooks': 'error',
-    
   },
   overrides: [
     {
@@ -299,7 +268,6 @@ module.exports = {
         'testing-library/render-result-naming-convention': 'error',
       },
     },
-
 
     // https://github.com/facebook/create-react-app/blob/main/packages/eslint-config-react-app/index.js
     {
