@@ -1,4 +1,4 @@
-import { useRef, useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 
 interface IProps {}
 
@@ -13,13 +13,21 @@ const projects = [
 
 export function Component(props: IProps) {
   const [state, setState] = useState(0)
-  useEffect(() => {})
-  useRef()
+  useEffect(() => {
+    setState(1)
+  }, []) // TODO: fix this
 
   return (
     <div className="className">
       {projects.map(({ name: project }) => (
-        <div key={project}>{project}</div>
+        <div
+          key={project}
+          onClick={() => {
+            console.log(project)
+          }}
+        >
+          {project}
+        </div>
       ))}
     </div>
   )
