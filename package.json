@@ -4,7 +4,7 @@
   "description": "",
   "main": ".eslintrc.js",
   "files": [
-    ".eslintrc.js"
+    "*.eslintrc.js"
   ],
   "scripts": {
     "lint": "eslint ."
