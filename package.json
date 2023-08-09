@@ -27,12 +27,12 @@
     "eslint-plugin-prettier": "^5.0.0",
     "eslint-plugin-react": "^7.33.1",
     "eslint-plugin-testing-library": "^5.11.0",
-    "eslint-plugin-unused-imports": "^3.0.0"
+    "eslint-plugin-unused-imports": "^3.0.0",
+    "next": ">13.0.0",
+    "react": ">17.0.0"
   },
   "peerDependencies": {
     "eslint": "*",
-    "next": "*",
-    "react": "*",
     "typescript": "*"
   },
   "devDependencies": {
