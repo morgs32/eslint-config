@@ -18,7 +18,6 @@ module.exports = {
     'testing-library',
     'prettier',
   ],
-
   rules: {
     'prettier/prettier': 'error',
     'spaced-comment': ['error', 'always', { markers: ['/'] }],
@@ -334,4 +333,4 @@ module.exports = {
       },
     },
   ],
-};
+}
