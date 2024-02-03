@@ -32,12 +32,14 @@
   "peerDependencies": {
     "eslint": "*",
     "next": "*",
+    "prettier": "^3.0.3",
     "typescript": "*"
   },
   "devDependencies": {
     "@types/react": "^18.2.17",
     "eslint": "^8.46.0",
     "next": "^13.4.12",
+    "prettier": "^3.0.3",
     "react": "^18.2.0",
     "typescript": "^5.1.6"
   }
