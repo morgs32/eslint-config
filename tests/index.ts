@@ -1,3 +1,3 @@
-import { foo } from './example'
+import { foo } from "./example"
 
 console.log(foo)

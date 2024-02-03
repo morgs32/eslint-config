@@ -1,4 +1,4 @@
 // @ts-check
 module.exports = {
-  extends: ['./base.eslintrc', 'prettier'],
+  extends: ["./base.eslintrc", "prettier"],
 }
