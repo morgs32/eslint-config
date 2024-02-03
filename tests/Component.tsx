@@ -1,13 +1,13 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect } from "react"
 
 interface IProps {}
 
 const projects = [
   {
-    name: 'foo',
+    name: "foo",
   },
   {
-    name: 'bar',
+    name: "bar",
   },
 ]
 
