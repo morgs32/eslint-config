@@ -34,13 +34,13 @@
     "@typescript-eslint/parser": "^8.34.1",
     "@vitest/eslint-plugin": "^1.2.0",
     "eslint": "latest",
-    "eslint-plugin-import": "^2.31.0"
+    "eslint-plugin-import": "^2.31.0",
+    "jiti": "^2.6.1"
   },
   "peerDependencies": {
     "eslint": "*",
     "next": "*",
     "prettier": "^3.0.3",
     "typescript": "*"
-  },
-  "devDependencies": {}
+  }
 }
